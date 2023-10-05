@@ -20,7 +20,7 @@ console.log(typeof myProfile.isActive)
 //console.log( mysymbole)
 //console.log(typeof myProfile[mysymbole])
 
-myProfile['age']=35
+//myProfile['age']=35
 //console.log(myProfile)
 
 // we can freeze object so no one can change values in object
@@ -45,7 +45,33 @@ greeting2=function greeting(){
 }
 
 
-console.log(greeting2())
+//console.log(greeting2())
+
+
+// declare object by two singleton and non singleton method
+
+const mypr={
+id:12,
+userfullname:{
+fullname:{first:'gn',
+last:'mahar'
+}
+
+}
+
+
+}
+
+const activity={
+    lastlog:'monday',
+active:1}
+const profile=Object.assign(mypr,activity)
+console.log(profile)
+
+//************* */
+
+hisName={}
+console.log(hisName)
 
 
 
