@@ -66,12 +66,28 @@ const activity={
     lastlog:'monday',
 active:1}
 const profile=Object.assign(mypr,activity)
-console.log(profile)
+//console.log(profile)
 
 //************* */
 
 hisName={}
-console.log(hisName)
+//console.log(hisName)
 
 
+//--------------------------------------object concatenated by spread methods ------------------
 
+const obj1={
+    id:1,name:'a'
+}
+const obj2={
+    id:11,name:'b'
+}
+const obj3={
+    id:10,name:'c'
+}
+
+const obj4={obj1,obj2,obj3}
+//console.log(obj4)
+
+const obj5={...obj1,...obj2,...obj3}
+console.log(obj5)
