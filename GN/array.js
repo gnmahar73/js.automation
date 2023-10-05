@@ -39,4 +39,10 @@ const all=[...subject,...teacher,...student]
 //+++++++++ how to concatenated all nested into single array how many sub array you want to concatenate into main array define depth or simple write infinity which concatenated all arrays++++++++++++
 const score=[22,33,55,[15,6,[19,18,22,[99]]]]
 const tota=score.flat(Infinity)
-console.log(tota)
+//console.log(tota)
+
+//+++++++++++++++++++++++convert other data types into arrays +++++++++++++++
+
+//console.log(Array.isArray('karachi'))
+
+console.log(Array.from('karachi',))
