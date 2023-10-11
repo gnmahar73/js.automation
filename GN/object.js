@@ -114,4 +114,32 @@ p3={name2:'dnfbad',age3:85}
 pro=Object.assign({},P1,P2,p3)
 // console.log(pro)
 pro1={...{},...P1,...P2,...p3}
-console.log(pro1)
+// console.log(pro1)
+
+gn=[{id:4,name:'gn'},{age:15},{greet:'assam o alikum'},{}]
+// console.log(gn[0].name)
+
+myData={name:'Ghulam',age:28,location:'karachi'}
+// console.log(object.keys(myData))
+// console.log(myData)
+// console.log(typeof Object.keys(myData))
+
+//+++++++++++++++++++ (...) syntex copies properties of one object into other object as below
+object1={name:'isalam',age:28,location:'Karachi'}
+object2={...object1,religion:'muslim'}
+// console.log(object2)
+
+// console.log(Object.keys (object2))  
+
+
+// A method in JavaScript is a function that is stored as a property of an object. Methods can be 
+// used to perform actions on the object or to access and modify the object's properties.
+const person = {
+    name: "Alice",
+    age: 25,
+    greet() {
+      console.log(`Hello, my name is ${this.name}.`);
+    },
+
+  };
+console.log(person.hasOwnProperty('location'))
