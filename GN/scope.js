@@ -14,7 +14,7 @@
 if(true){
 
     // let a=30
-    console.log(a)
+    // console.log(a)
 }
 // console.log(a)
 
@@ -26,4 +26,45 @@ if(true){
     let a=30
    // console.log(a)
 }
-console.log(a)
+// console.log(a)
+
+if (true)
+{
+    let a=1
+    var b=5
+    const c=9
+}
+    //console.log(a)
+    // console.log(b)
+    // console.log(c)
+
+  //nested function whith scope
+
+//   function one()
+//   {
+//     const username='GNMAhar'
+
+//     function two ()
+//     {
+//         const website='youtube'
+//         console.log(username)
+        
+        
+//     }
+//     console.log(website)
+//     two()
+//   }
+  
+//   one()
+  
+if(true){
+
+   const user='gnmahar73'
+   if(user==='gnmahar73')
+   {
+    website='mahar.com'
+    console.log(`${user}@${website}`)
+   }
+   console.log(website)
+   console.log(user)
+}
